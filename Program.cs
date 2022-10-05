@@ -11,7 +11,9 @@ namespace SuperDevOps
         public static void Main(string[] args)
         {
             DelegatenKlasse.WeiterleitenAnProgramklasse();
-           
+            
+            LambdaAusdrücken.Begrüßung('A');
+            
 
         }
     }
