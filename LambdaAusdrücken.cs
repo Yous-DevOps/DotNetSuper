@@ -11,13 +11,18 @@ namespace SuperDevOps
 {
     internal class LambdaAusdrücken
     {
-        
 
+        readonly static Func<String, int> func = (eingeben) => int.Parse(eingeben) * 2;
         public static  Action<dynamic> Begrüßung = Eingabeparam =>
         {
             var grüßung = $"Hello {Convert.ToString(Eingabeparam)}!";
+            int b = func("2");
             Console.WriteLine(grüßung);
+            Console.WriteLine(b);
+            
         };
+        
+        
         
        
 
