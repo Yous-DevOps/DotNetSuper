@@ -37,7 +37,7 @@ namespace SuperDevOps
         {
             CallDelegate(OutUsage);
             decimal Giv = givDecimal(213213);
-            Console.WriteLine($"{Giv} ist von GivDecimal Delegate !");
+            Console.WriteLine($" Hi Yousef, {Giv} ist von GivDecimal Delegate !");
 
         }
     }
